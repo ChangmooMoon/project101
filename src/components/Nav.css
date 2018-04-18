@@ -1,0 +1,61 @@
+.navBar {
+  z-index: 999999;
+  top: 0;
+  right: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  border-bottom: solid 1px #ededed;
+}
+
+.navBar a {
+  float: left;
+  display: block;
+  color: #bebebe;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.home{
+  width: 50%;
+  float: left;
+}
+
+.home a{
+  font-weight: 700;
+  color:#14e86e;
+  font-size: 30px;
+  margin-left: 40px;
+}
+
+.home img{
+  width: 120px;
+}
+
+.lists{
+  padding-top: 10px;
+  float: left;
+  width: 50%;
+}
+
+a.about{
+  float:right;
+}
+
+a.contact{
+  float:right;
+  margin-right: 40px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
